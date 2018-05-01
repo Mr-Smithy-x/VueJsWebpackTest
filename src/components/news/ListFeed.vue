@@ -163,11 +163,12 @@ export default {
 
     language: function (val) {
       console.log(val)
+      this.updateSource(val)
     },
 
     source: function (val) {
       console.log(val)
-      // this.updateSource(val);
+      this.updateSource(val)
       // this.page++;
     },
     page: function (page) {

@@ -9,6 +9,8 @@ Vue.config.productionTip = false
 
 // Vue.http.headers.common['X-Api-Key'] = '969278fe3e884418af4bdbbbab4549da';
 
+console.log('Environment:', process.env.NODE_ENV)
+
 new Vue({
   router,
   render: h => h(App)
